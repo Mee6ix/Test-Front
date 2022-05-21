@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.container{
+	width: 100%;
+}
+#posts{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#posts div{
+	width: 40%;
+	height: 40%;
+	background: crimson;
+	padding: 20px;
+	margin: 40px 0;
+	border-radius: 10px;
+}
+.postTitle{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 760;
+	color: white;
+}
+.text{
+	font-family: sans-serif;
+	padding: 10px;
+	text-align: justify;
+	color: white;
+	font-size: 18px;
+}
+.postId{
+	margin-left: 43%;
+}
+.postId, .userId{
+	display: inline;
+	font-family: sans-serif;
+	color: white;
+}
+.userId{
+	margin-left: 40px;
+}
+.header{
+	margin-top: 40px;
+}
+#btn1{
+	margin-left: 37%;
+}
+.btn{
+	padding: 10px;
+	border-radius: 10px;
+}
+.btn:hover{
+	background-color: lightgray;
+}
+#searchType{
+	border: 2px solid black;
+	margin-left: 34%;
+	border-radius: 10px;
+	padding: 10px;
+}
+#search{
+	margin-top: 20px;
+	width: 350px;
+	padding: 10px;
+	margin-left: 15px;
+	border-radius: 10px;
+}
+#search:hover{
+	background-color: lightgray;
+}
+#searchType:hover{
+	background-color: lightgray;
+}
+.failure{
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+#searchType, #searchType:active, #searchType:focus{
+-webkit-appearance: none;
+-moz-appearance: radio-container;
+ appearance: none;
+}
